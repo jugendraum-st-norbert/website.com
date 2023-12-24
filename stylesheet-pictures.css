@@ -1,0 +1,54 @@
+.bilddiv{
+    padding-top: 4%;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bild{
+    max-height: 100%;
+}
+
+.pikto-kontakt{
+    max-height: 200px;
+    width: 70%;
+    margin: 15%
+}
+
+.b2bild{
+    margin-top: 0;
+    margin-bottom: 2%;
+    margin:4%;
+    max-width: 92%;
+    max-height: 98%;
+    max-height: 600px;
+    position: relative;
+}
+
+.b2bild-crew{
+    margin-bottom: 2%;
+    margin:4%;
+    max-width: 92%;
+    max-height: 60%;
+    position: relative;
+    border: 1 black solid;
+    border-radius: 0.5cm;
+}
+
+.b3bild{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin: 4%;
+    width: 92%;
+}
+
+.b3bildangebot{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin: 4%;
+    max-width: 84%;
+    max-height: 80%;  
+}

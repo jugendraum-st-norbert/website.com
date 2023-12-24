@@ -1,0 +1,339 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    padding: 20px 100px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    background-color: rgb(114, 163, 105);
+}
+
+.logo{
+    font-size: 2em;
+    color: #fff;
+    user-select: none;
+    font-family:'Lucida Sans';
+}
+
+.link-start{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navigation{
+    margin-right: -50px;
+    font-family: sans-serif;
+}
+
+.navigation a {
+    margin-right: 50px;
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #000000;
+    text-decoration: none;
+    position: relative;
+}
+
+.navigation a::after{
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #000000;
+    border-radius: 5px;
+    content: '';
+    position: absolute;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.navigation a:hover::after{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.bottom-menu{
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 100px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    background-color: rgb(114, 163, 105);
+}
+
+.text-header{
+    margin: 16%;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    padding: 1.4%;
+    width: 68%;
+    height: 14%;
+    background-color: rgb(114, 163, 105);
+    text-align: center;
+    border: 1 #000000 solid;
+    border-radius: 0.5cm;
+}
+
+.text{
+    margin: 8%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 4%;
+    width: 84%;
+    height: 800px;
+    background-color: #c8d5b9;
+    border: 1 #000000 solid;
+    border-radius: 0.5cm;
+}
+
+.text-l{
+    margin-left: 8%;
+    margin-right: 3%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 4%;
+    width: 40%;
+    max-height: 800px;
+    min-height: 400px;
+    background-color: #ffffff;
+    border: 2px #d3d3d3 outset;
+    border-radius: 0.5cm;
+    float: left;
+    z-index: 99;
+}
+
+.text-r{
+    margin-right: 8%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 4%;
+    width: 40%;
+    max-height: 800px;
+    min-height: 400px;
+    background-color: #ffffff;
+    border: 2px #d3d3d3 outset;
+    border-radius: 0.5cm;
+    float: left;
+    z-index: 99;
+}
+
+.links-bei-text{
+    text-decoration: none;
+}
+
+.heading-info{
+    position:relative;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.heading-info::after{
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #000000;
+    border-radius: 5px;
+    content: '';
+    position: absolute;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.heading-info:hover::after{
+    transform-origin: left;
+    transform: scaleX(1);
+    
+}
+
+.text-kontakt{
+    margin: 14%;
+    margin-top: 12%;
+    margin-bottom: 4%;
+    padding: 6%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 72%;
+    background-color: #ffffff;
+    border: 2px #d3d3d3 outset;
+    border-radius: 0.5cm;
+}
+
+.kontakt-texth1{
+    font-family:'sans-serif';
+    
+}
+
+.pikto-kontakt-a{
+    padding-bottom: 10px;
+    font-size: 1.4em;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    justify-content:baseline;
+}
+
+.text-3-l{
+    margin-left: 6%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 4%;
+    width: 26.5%;
+    max-height: 560px;
+    min-height: 560px;
+    background-color: #ffffff;
+    border: 2px #d3d3d3 outset;
+    border-radius: 0.5cm;
+    float: left;
+    z-index: 99;
+}
+
+.text-3-m{
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 4%;
+    width: 26.5%;
+    max-height: 560px;
+    min-height: 560px;
+    background-color: #ffffff;
+    border: 2px #d3d3d3 outset;
+    border-radius: 0.5cm;
+    float: left;
+    z-index: 99;
+}
+
+.text-3-r{
+    margin-right: 6%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 4%;
+    width: 26.5%;
+    max-height: 560px;
+    min-height: 560px;
+    background-color: #ffffff;
+    border: 2px #d3d3d3 outset;
+    border-radius: 0.5cm;
+    float: left;
+    z-index: 99;
+}
+
+.kontakt-i-han-kan-bock-mehr-also-verpissl-di{
+    float: left;
+    position: fixed;
+    width: 38%;
+}
+
+.kontakt-i-hobl-mia-di-birn-ausm-schedl-und-zahl-getränke-selber{
+    float: left;
+    position: fixed;
+    width: 38%;
+}
+
+.text-l-crew{
+    margin-left: 8%;
+    margin-right: 3%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 4%;
+    width: 40%;
+    max-height: 1000px;
+    min-height: 600px;
+    background-color: #ffffff;
+    border: 2px #d3d3d3 outset;
+    border-radius: 0.5cm;
+    float: left;
+    z-index: 99;
+}
+
+.text-r-crew{
+    margin-right: 8%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 4%;
+    width: 40%;
+    max-height: 800px;
+    min-height: 400px;
+    background-color: #ffffff;
+    border: 2px #d3d3d3 outset;
+    border-radius: 0.5cm;
+    float: left;
+    z-index: 99;
+}
+
+.text-4-l{
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 4%;
+    width: 21%;
+    background-color: #ffffff;
+    border: 2px #d3d3d3 outset;
+    border-radius: 0.5cm;
+    float: left;
+    z-index: 99;
+}
+
+.text-4-m{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 4%;
+    width: 21%;
+    background-color: #ffffff;
+    border: 2px #d3d3d3 outset;
+    border-radius: 0.5cm;
+    float: left;
+    z-index: 99;
+}
+
+.text-4-r{
+    margin-right: 4%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 4%;
+    width: 21%;
+    background-color: #ffffff;
+    border: 2px #d3d3d3 outset;
+    border-radius: 0.5cm;
+    float: left;
+    z-index: 99;
+}
+
+.kontakt-zeug{
+    color: black;
+    text-align: center;
+}
+
+.text-impressum{
+    margin: 4%;
+    padding: 3%;
+    width: 92%;
+    border: 2px #d3d3d3 outset;
+    border-radius: 0.5cm;
+}
